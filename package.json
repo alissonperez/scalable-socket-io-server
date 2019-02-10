@@ -1,0 +1,23 @@
+{
+  "name": "teste-new-app-server",
+  "version": "1.0.0",
+  "description": "POC - Scalable Socket IO implementation with Redis",
+  "main": "client.js",
+  "dependencies": {
+    "cuid": "^2.1.6",
+    "express": "^4.16.4",
+    "notepack.io": "^2.2.0",
+    "pubsub-js": "^1.7.0",
+    "redis": "^2.8.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "socket.io-redis": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
